@@ -5,28 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
-
-    <script src="jspractice2.js">
-    </script>
+    <title>Java script</title>
 </head>
 
 <body>
-    <h2> JavaScript in Body</h2>
+    <h2>what can javascript do?</h2>
+    <P>javascript can change HTML attribute values </P>
+    <P>in this case javascript changes the value of the src (source) attribute of an image</P>
+    <button onclick=" document.getElementById ('myImage').src='pic_bulbon.gif'">
+    Turn on the light</button>
+    <img id="myImage" src="pic_bulbon.gif" style="width:100px">
 
-    <p id="demo">
-    </p>
+    <button onclick=" document.getElementById('myImage').src'pic_bulbon.gif'">
+    Turn off the light</button>
+    <p id="demo">JavaScript can hide HTML elements.</p>
 
-    <script>
-        document.getElementById("demo").innerHTML = "My First JavaScript";
-    </script>
-    <h2>Demo JavaScript in Head</h2>
-
-    <p id="demo2">A Paragraph</p>
-    <button onclick="myfuntion()"> clik me to get the parapgraph</button>
-    <h3>this is third one</h3>
-    <P id="demo3"> third one</P>
-    <button onclick="myfunction()"> click on third </button>
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+    <p>java script can show hidden HTML element</p>
+    <p id="demo1" style="display:none">Hello javascript</p>
+    <button type="button" onclick=" document.getElementById('demo1').style.display='block'">Click Me</button>
 </body>
 
 </html>
