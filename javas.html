@@ -24,6 +24,32 @@
     <p>java script can show hidden HTML element</p>
     <p id="demo1" style="display:none">Hello javascript</p>
     <button type="button" onclick=" document.getElementById('demo1').style.display='block'">Click Me</button>
+
+    <p id="inner-demo"></p>
+    <script>
+        //document.getElementById('inner-demo').innerHTML = 5 + 6
+        //document.getElementById('inner-demo').write(5 + 6);
+        // console.log(17 + 3);
+        var a, b, c;
+        a = 2;
+        b = 3;
+        c = a + b;
+        console.log(c);
+    </script>
+    <P id="new var"></P>
+
+    <script>
+        //var define for variable
+        var x, y, z;
+        x = 10;
+        y = 20;
+        z = x - y;
+        document.getElementById("new var").innerHTML = z
+    </script>
+    <script>
+        < button type = "button"
+        onclick = "document.write(5 + 6)" > Try it < /button>
+    </script>
 </body>
 
 </html>
